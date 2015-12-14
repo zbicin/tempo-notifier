@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          Tempo notifier
+// @name          JIRA Tempo Timesheet Notifier
 // @namespace     http://zbic.in
 // @description   UserScript periodically displaying currently tracked issue in JIRA Tempo Timesheets using HTML5 Notification API.
 // @author        Zbicin (http://github.com/zbicin)
@@ -59,7 +59,7 @@ var injectedScript = function () {
             });
         }
 
-        notify();
+        console.info('JIRA Tempo Timesheet Notifier loaded.');
     }
     
     function isPermissionGranted() {

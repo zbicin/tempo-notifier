@@ -2,10 +2,10 @@
 // @name          JIRA Tempo Timesheets Notifier
 // @namespace     http://zbic.in
 // @description   UserScript periodically displaying currently tracked issue in JIRA Tempo Timesheets using HTML5 Notification API.
-// @author        Zbicin (http://github.com/zbicin)
+// @author        Krzysztof Zbiciński (http://github.com/zbicin)
 // @include       https://*.atlassian.net/*
 // @downloadURL   https://raw.githubusercontent.com/zbicin/tempo-notifier/master/tempo-notifier.user.js
-// @version       0.0.4
+// @version       0.1
 // @noframes
 // ==/UserScript==
 

@@ -1,0 +1,11 @@
+{
+  "name": "JIRA Tempo Timesheets Notifier",
+  "version": "0.1",
+  "description": "UserScript periodically displaying currently tracked issue in JIRA Tempo Timesheets using HTML5 Notification API.",
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["tempo-notifier.user.js"]
+    }
+  ]
+}
